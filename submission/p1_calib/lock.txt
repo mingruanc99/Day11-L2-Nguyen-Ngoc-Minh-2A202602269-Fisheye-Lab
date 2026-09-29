@@ -1,0 +1,9 @@
+round: calib
+slice: C0
+sha256: 4f86cdb52855269685cb483e1a3dcca10737f5c0f01f15c80553e2c269076b16
+code: 4F86-CDB5
+locked_at: 2026-09-28T17:22:44+07:00
+shapes: box=9, polygon=3
+prefill_kept: 8
+prefill_edited: 0
+new: 1

@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,30,Phương tiện di chuyển ổn định ở cự ly trung bình,Kiểm tra độ chính xác phát hiện xe và người đi bộ trong điều kiện giao thông tiêu chuẩn
+front,hard,30,Mật độ xe dày đặc và che khuất liên hoàn ở ngã tư,Đánh giá khả năng tách box và phát hiện vật thể bị che một phần ở vùng tâm
+rear,normal,20,Xe bám đuôi cự ly ổn định trên đường thẳng,Xác định baseline nhận diện phương tiện phía sau xe mang cảm biến
+rear,hard,20,Phương tiện bám sát đuôi xe hoặc đèn pha chiếu rọi trực tiếp,Kiểm tra khả năng chịu lóa sáng và méo hình học khi xe sau áp sát cự ly cực gần
+left,normal,25,Lề đường và xe chạy song song ở làn bên cạnh,Đo lường độ ổn định nhận diện chướng ngại vật khi chuyển làn
+left,hard,25,Vùng seam góc trước/sau bên trái và xe máy cắt ngang đầu xe,Phát hiện biến dạng méo quang học fisheye cực đại và ranh giới chồng lấn góc nhìn
+right,normal,25,Phương tiện và người đi bộ di chuyển dọc vỉa hè bên phải,Kiểm tra nhận diện người đi bộ và xe hai bánh đỗ sát lề
+right,hard,25,Vùng seam góc phụ bên phải có chướng ngại vật bất ngờ xuất hiện,Đánh giá rủi ro điểm mù và ranh giới ghép nối camera sườn với camera trước/sau

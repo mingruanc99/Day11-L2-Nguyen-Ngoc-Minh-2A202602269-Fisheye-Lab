@@ -1,1 +1,41 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+calib,C0,adasind_019560.jpg,L2+R3,na,WRONG_CLASS,,,,,,,,
+calib,C0,adasind_019560.jpg,L5,na,SPURIOUS,,,,,,,,
+calib,C0,adasind_019560.jpg,L7,na,SPURIOUS,,,,,,,,
+r2_qa,B2-center,adasind_086220.jpg,L6,L_only,WRONG_CLASS,,,qa,R04,qa_overlay.html L6,,v1.0.0,Nghi vấn ThreeWheeler gán nhầm Car
+r2_qa,B2-center,adasind_117120.jpg,L7,L_only,SPURIOUS,,,qa,R01,qa_overlay.html L7,,v1.0.0,Box chồng lấn người đi bộ L8
+r2_qa,B2-center,adasind_062370.jpg,L6,L_only,BOX_GEOMETRY,,,qa,R02,qa_overlay.html L6,,v1.0.0,Kiểm tra độ ôm sát và truncated ở rìa kính
+r1_craft,B2-center,adasind_062370.jpg,R7,na,MISSING,,,,,,,,
+r1_craft,B2-center,adasind_062370.jpg,R8,na,MISSING,,,,,,,,
+r1_craft,B2-center,adasind_086220.jpg,L5,na,SPURIOUS,,,,,,,,
+r1_craft,B2-center,adasind_086220.jpg,L6,na,SPURIOUS,,,,,,,,
+r1_craft,B2-center,adasind_086220.jpg,R4,na,MISSING,,,,,,,,
+r1_craft,B2-center,adasind_117120.jpg,L4,na,SPURIOUS,,,,,,,,
+r1_craft,B2-center,adasind_117120.jpg,L7,na,SPURIOUS,,,,,,,,
+r3_diag,B2-center,adasind_062370.jpg,L4+R6,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model bỏ sót vật thể trong điều kiện fisheye
+r3_diag,B2-center,adasind_062370.jpg,L7+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model bỏ sót vật thể trong điều kiện fisheye
+r3_diag,B2-center,adasind_062370.jpg,L1+R5,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model bỏ sót vật thể trong điều kiện fisheye
+r3_diag,B2-center,adasind_062370.jpg,R7,R_only,MISSING,E1_annotator_error,P1,annotator,,,rework,,Annotator bỏ sót xe bị che khuất một phần
+r3_diag,B2-center,adasind_062370.jpg,R8,R_only,MISSING,E1_annotator_error,P1,annotator,,,rework,,Annotator bỏ sót xe bị che khuất một phần
+r3_diag,B2-center,adasind_062370.jpg,M3,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model dự đoán box ảo do texture nền phức tạp
+r3_diag,B2-center,adasind_062370.jpg,M4,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model dự đoán box ảo do texture nền phức tạp
+r3_diag,B2-center,adasind_062370.jpg,M5,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model dự đoán box ảo do texture nền phức tạp
+r3_diag,B2-center,adasind_062370.jpg,M8,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model dự đoán box ảo do texture nền phức tạp
+r3_diag,B2-center,adasind_062370.jpg,M10,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model dự đoán box ảo do texture nền phức tạp
+r3_diag,B2-center,adasind_086220.jpg,L3+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model bỏ sót vật thể trong điều kiện fisheye
+r3_diag,B2-center,adasind_086220.jpg,L1+R5,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model bỏ sót vật thể trong điều kiện fisheye
+r3_diag,B2-center,adasind_086220.jpg,L5+M8,LM_noR,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,Box dưới ngưỡng chiều cao H=40 hoặc thừa
+r3_diag,B2-center,adasind_086220.jpg,L6+M7,LM_noR,SPURIOUS,E2_guideline_gap,P0,guideline,,,escalate,,Phân vân ThreeWheeler vs Car cự ly xa
+r3_diag,B2-center,adasind_086220.jpg,R4,R_only,MISSING,E1_annotator_error,P1,annotator,,,rework,,Annotator bỏ sót xe bị che khuất một phần
+r3_diag,B2-center,adasind_086220.jpg,M2,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model dự đoán box ảo do texture nền phức tạp
+r3_diag,B2-center,adasind_086220.jpg,M3,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model dự đoán box ảo do texture nền phức tạp
+r3_diag,B2-center,adasind_086220.jpg,M5,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model dự đoán box ảo do texture nền phức tạp
+r3_diag,B2-center,adasind_086220.jpg,M6,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model dự đoán box ảo do texture nền phức tạp
+r3_diag,B2-center,adasind_117120.jpg,L1+R2,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model bỏ sót vật thể trong điều kiện fisheye
+r3_diag,B2-center,adasind_117120.jpg,L6+R4,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model bỏ sót vật thể trong điều kiện fisheye
+r3_diag,B2-center,adasind_117120.jpg,L4+M8,LM_noR,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,Box dưới ngưỡng chiều cao H=40 hoặc thừa
+r3_diag,B2-center,adasind_117120.jpg,L7,L_only,SPURIOUS,E1_annotator_error,P0,annotator,,,rework,,Box ThreeWheeler chồng lấn đè lên Pedestrian L8
+r3_diag,B2-center,adasind_117120.jpg,M1,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model dự đoán box ảo do texture nền phức tạp
+r3_diag,B2-center,adasind_117120.jpg,M6,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model dự đoán box ảo do texture nền phức tạp
+r3_diag,B2-center,adasind_117120.jpg,M7,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model dự đoán box ảo do texture nền phức tạp
+r3_diag,B2-center,adasind_117120.jpg,M10,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model dự đoán box ảo do texture nền phức tạp

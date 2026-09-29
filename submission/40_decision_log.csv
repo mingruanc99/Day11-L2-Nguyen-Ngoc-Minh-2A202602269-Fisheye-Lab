@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+D1,2026-09-28,"Có nên xóa box Bike L5 dưới ngưỡng H=40 trên frame 086220?",Xóa box khỏi dataset,"Chiều cao đo được là 35.3px < 40px, tuân thủ nghiêm ngặt quy tắc R01 để tránh nhiễu mô hình",accepted
+D2,2026-09-28,"Có vẽ polygon ego_body trên frame 006840?",Không vẽ ego_body,"Ảnh không nhìn thấy nắp capo/gương/thân xe ego, tuân thủ quy tắc R07 không vẽ polygon thừa",accepted
+D3,2026-09-28,"Xử lý phân loại đối tượng L6 cự ly xa mép trái trên frame 086220 (Car vs ThreeWheeler)",Escalate lên guideline,"Đối tượng cự ly xa có thùng che kín tương tự ô tô con nhưng vệt bánh xe giống e-rickshaw, cần guideline làm rõ",escalated
+D4,2026-09-28,"Xử lý box ThreeWheeler L7 chồng lấn Pedestrian L8 trên frame 117120",Xóa box L7 giữ Pedestrian L8,"Người phụ xe đang đứng bốc hàng cạnh xe, box L7 bị vẽ trùng đè hoàn toàn, giữ Pedestrian theo quy tắc hiện tại",reworked

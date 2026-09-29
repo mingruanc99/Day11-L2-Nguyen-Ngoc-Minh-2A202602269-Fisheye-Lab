@@ -1,0 +1,9 @@
+round: r1_craft
+slice: B2-center
+sha256: 8983e965c8df14093bf999623a18e3033d3a4dc9d9a14d03528c9811712678bf
+code: 8983-E965
+locked_at: 2026-09-28T17:45:19+07:00
+shapes: box=21, polygon=9
+prefill_kept: 4
+prefill_edited: 0
+new: 17
